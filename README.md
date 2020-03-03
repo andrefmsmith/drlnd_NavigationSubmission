@@ -24,7 +24,7 @@ The action space is **discrete** and contains 4 actions:
 The environment is solved when the agent averages a **score above 13 over 100 consecutive episodes**.  
 
 ## Setting up
-**0.** To run the exact same environment I used for this repo, please follow the instructions [here](https://github.com/udacity/deep-reinforcement-learning#dependencies).
+**0.** To run the exact same environment I used for this repo, please follow the instructions [here](https://github.com/udacity/deep-reinforcement-learning#dependencies).  
 **1.** Clone this repository.  
 **2.** Download the environment from the appropriate link for your operating system:  
 - [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
@@ -33,7 +33,7 @@ The environment is solved when the agent averages a **score above 13 over 100 co
 - [Windows (64-bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip) 
   - [Not sure which version of Windows you have?](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64)  
 
-Then, unzip the downloaded file into a convenient directory and take note of its path. We will point to in in this repo's code.
+Then, unzip the downloaded file into a convenient directory and take note of its path. We will point to in in this repo's code.  
 **3.** You may need to install Unity. Please follow the steps indicated [here](https://github.com/Unity-Technologies/ml-agents/blob/latest_release/docs/Installation.md)
 
 ## Training the agent
