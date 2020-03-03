@@ -33,11 +33,11 @@ The environment is solved when the agent averages a **score above 13 over 100 co
 - [Windows (64-bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip) 
   - [Not sure which version of Windows you have?](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64)  
 
-Then, unzip the downloaded file into a convenient directory and take note of its path. We will point to in in this repo's code.  
-**3.** You may need to install Unity. Please follow the steps indicated [here](https://github.com/Unity-Technologies/ml-agents/blob/latest_release/docs/Installation.md)
+Then unzip the downloaded file into a convenient directory and take note of its path. We will point to in in the [training notebook](https://github.com/andrefmsmith/drlnd_NavigationSubmission/blob/master/TrainingCode.ipynb) code.  
+**3.** You may need to install Unity. Please follow the steps indicated [here](https://github.com/Unity-Technologies/ml-agents/blob/latest_release/docs/Installation.md).
 
 ## Training the agent
-The Jupyter Notebook ['Report'](https://github.com/andrefmsmith/drlnd_NavigationSubmission/blob/master/Report.ipynb) provides a detailed walkthrough explaining the algorithm used and how the code written to implement it ['TrainingCode'](https://github.com/andrefmsmith/drlnd_NavigationSubmission/blob/master/TrainingCode.ipynb) works.  
+The Jupyter Notebook ['Report'](https://github.com/andrefmsmith/drlnd_NavigationSubmission/blob/master/Report.ipynb) provides a detailed walkthrough explaining the algorithm used and how the code written to implement it in ['TrainingCode'](https://github.com/andrefmsmith/drlnd_NavigationSubmission/blob/master/TrainingCode.ipynb) works.  
 
 To train an agent to solve this environment, you should open the ['TrainingCode'](https://github.com/andrefmsmith/drlnd_NavigationSubmission/blob/master/TrainingCode.ipynb) Jupyter Notebook and run the code cells in it.  
 **Important notes:**
