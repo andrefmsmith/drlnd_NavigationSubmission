@@ -41,7 +41,9 @@ The Jupyter Notebook ['Report'](https://github.com/andrefmsmith/drlnd_Navigation
 
 To train an agent to solve this environment, you should open the ['TrainingCode'](https://github.com/andrefmsmith/drlnd_NavigationSubmission/blob/master/TrainingCode.ipynb) Jupyter Notebook and run the code cells in it.  
 **Important notes:**
-- Remember to change the variable ```env = UnityEnvironment(file_name=" ")```, found in the code block titled **Setup**, to the path pointing to your downloaded and unzipped copy of the 'Banana' environment;
+- Remember to change the variable ```env = UnityEnvironment(file_name=" ")```, found in the code block titled **Setup**, to the path pointing to your downloaded and unzipped copy of the 'Banana' environment.
 - When defining the ```QNetwork``` class under code block **QNetwork Class** you can change the number of units per hidden layer by setting ```fc1_units``` and/or ```fc2_units``` to whichever integer value you'd like. You could also change the depth of the network by adding new layers, in which case you should specify them both in ```__init()__``` and ```forward()``` methods.
-- In the code block **Hyperparameters and GPU**, you can change hyperparameter values and decide if you'd like to train using CPU or GPU
+- In the code block **Hyperparameters and GPU**, you can change hyperparameter values and decide if you'd like to train using CPU or GPU.
 - When beginning training, in block **Train & Plot results**, control whether you'd like to save a checkpoint by setting the ```dqn``` training function argument ```output_toggle``` to True or False. If you choose to save a checkpoint, define its title with the argument ```output```.
+
+Happy training!
